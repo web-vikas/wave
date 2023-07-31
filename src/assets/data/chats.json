@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "user": {
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/lukas.jpeg",
+      "name": "Lukas"
+    },
+    "lastMessage": {
+      "text": "Well done this sprint, guys!",
+      "lastSeen": "2023-07-31T18:00:00.000Z",
+      "unreadMessagesCount": 13
+    }
+  },
+  {
+    "id": 2,
+    "user": {
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg",
+      "name": "Daniil Top"
+    },
+    "lastMessage": {
+      "text": "How are you doing? Did you get any chance to look at what I've sent you?",
+      "lastSeen": "2022-10-14T10:48:00.000Z",
+      "unreadMessagesCount": 24
+    }
+  },
+  {
+    "id": 3,
+    "user": {
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/8.png",
+      "name": "Alex"
+    },
+    "lastMessage": {
+      "text": "Hi, Vadim. I hope the plans for tonight are still on.",
+      "lastSeen": "2022-10-13T20:48:00.000Z",
+      "unreadMessagesCount": 7
+    }
+  },
+  {
+    "id": 4,
+    "user": {
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/jeff.jpeg",
+      "name": "Vlad"
+    },
+    "lastMessage": {
+      "text": "Could you please review my last merge?",
+      "lastSeen": "2022-10-12T14:48:00.000Z",
+      "unreadMessagesCount": 31
+    }
+  },
+  {
+    "id": 5,
+    "user": {
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/elon.png",
+      "name": "Elon Musk"
+    },
+    "lastMessage": {
+      "text": "I would be happy meeting you",
+      "lastSeen": "2022-10-11T14:48:00.000Z",
+      "unreadMessagesCount": 18
+    }
+  },
+  {
+    "id": 6,
+    "user": {
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/graham.jpg",
+      "name": "Adrian"
+    },
+    "lastMessage": {
+      "text": "I think I have a solution for tha.",
+      "lastSeen": "2022-10-10T14:48:00.000Z",
+      "unreadMessagesCount": 0
+    }
+  },
+  {
+    "id": 7,
+    "user": {
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/zuck.jpeg",
+      "name": "Borja"
+    },
+    "lastMessage": {
+      "text": "How are you doing?",
+      "lastSeen": "2022-10-09T14:30:00.000Z",
+      "unreadMessagesCount": 6
+    }
+  },
+  {
+    "id": 8,
+    "user": {
+      "image": "https://image.shutterstock.com/image-vector/super-mom-hero-superhero-cartoon-600w-720015928.jpg",
+      "name": "Mom"
+    },
+    "lastMessage": {
+      "text": "Dear, what did you eat, today?",
+      "lastSeen": "2020-09-27T15:40:00.000Z",
+      "unreadMessagesCount": 15
+    }
+  },
+  {
+    "id": 9,
+    "user": {
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/4.jpg",
+      "name": "Andrei"
+    },
+    "lastMessage": {
+      "text": "What about our podcast?",
+      "lastSeen": "2020-09-27T15:40:00.000Z",
+      "unreadMessagesCount": 3
+    }
+  },
+  {
+    "id": 10,
+    "user": {
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/biahaze.jpg",
+      "name": "Misha"
+    },
+    "lastMessage": {
+      "text": "Do I have to send you any more details?",
+      "lastSeen": "2020-09-27T15:40:00.000Z",
+      "unreadMessagesCount": 22
+    }
+  },
+  {
+    "id": 11,
+    "user": {
+      "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/7.png",
+      "name": "Alina"
+    },
+    "lastMessage": {
+      "text": "Here is a picture of Mark.",
+      "lastSeen": "2020-09-27T15:40:00.000Z",
+      "unreadMessagesCount": 11
+    }
+  }
+]
