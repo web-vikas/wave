@@ -1,10 +1,15 @@
-import { View, Text, Image, StyleSheet } from "react-native";
+import { View, Text, Image, StyleSheet, Pressable } from "react-native";
 import { useState } from "react";
+import { useRoute, useNavigation } from "@react-navigation/native";
 import dayjs from "dayjs";
 import relativeTime from "dayjs/plugin/relativeTime";
 
 dayjs.extend(relativeTime);
 const ChatList = ({ chat }) => {
+  const navigation = useNavigation()
+
+  // navigation.setOptions({title:route.params.name})
+
   const chatDateTime = new Date(chat.lastMessage.lastSeen);
   const today = new Date();
   const yesterday = new Date(today);
@@ -33,10 +38,16 @@ const ChatList = ({ chat }) => {
         : "99+"
       : null
   );
-  const messageCounterStyle = displayCount !== null ? { color: '#42C100'} : null;
+  const messageCounterStyle = displayCount !== null ? { color: '#42C100' } : null;
 
   return (
-    <View style={styles.container}>
+    <Pressable style={styles.container} onPress={() =>
+      navigation.navigate('Chats',
+        {
+          id: chat.id,
+          name: chat.user.name
+        }
+      )}>
       <View style={styles.profileContainer}>
         {displayCount !== null && (
           <Text numberOfLines={1} style={styles.messageCounter}>
@@ -54,11 +65,11 @@ const ChatList = ({ chat }) => {
           <Text numberOfLines={1} style={styles.name}>{chat.user.name}</Text>
           <Text style={[styles.subTitle, messageCounterStyle]}>
             {formattedOutput}
-            </Text>
+          </Text>
         </View>
         <Text numberOfLines={2} style={styles.subTitle}>{chat.lastMessage.text}</Text>
       </View>
-    </View>
+    </Pressable>
   );
 };
 
@@ -68,12 +79,15 @@ export default ChatList;
 const styles = StyleSheet.create({
   container: {
     flexDirection: "row",
-    marginHorizontal: 10,
-    marginVertical: 3,
+    // marginHorizontal: 10,
+    marginVertical: 1,
     height: 70,
-    borderBottomColor: 'lightgray',
-    borderBottomWidth: StyleSheet.hairlineWidth,
+    // borderBottomColor: 'lightgray',
+    // borderBottomWidth: StyleSheet.hairlineWidth,
     paddingVertical: 7,
+    backgroundColor: 'white',
+    paddingVertical: 10,
+    paddingHorizontal: 5,
   },
   profileContainer: {
     position: "relative",

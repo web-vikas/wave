@@ -3,7 +3,8 @@
     "id": 1,
     "user": {
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/lukas.jpeg",
-      "name": "Lukas"
+      "name": "Lukas",
+      "status": "Hi there, I'm Using Wave !"
     },
     "lastMessage": {
       "text": "Well done this sprint, guys!",
@@ -15,7 +16,8 @@
     "id": 2,
     "user": {
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/1.jpg",
-      "name": "Daniil Top"
+      "name": "Daniil Top",
+      "status": "Hi there, I'm Using Wave !"
     },
     "lastMessage": {
       "text": "How are you doing? Did you get any chance to look at what I've sent you?",
@@ -27,7 +29,8 @@
     "id": 3,
     "user": {
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/8.png",
-      "name": "Alex"
+      "name": "Alex",
+      "status": "Hi there, I'm Using Wave !"
     },
     "lastMessage": {
       "text": "Hi, Vadim. I hope the plans for tonight are still on.",
@@ -39,7 +42,8 @@
     "id": 4,
     "user": {
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/jeff.jpeg",
-      "name": "Vlad"
+      "name": "Vlad",
+      "status": "Hi there, I'm Using Wave !"
     },
     "lastMessage": {
       "text": "Could you please review my last merge?",
@@ -51,7 +55,8 @@
     "id": 5,
     "user": {
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/elon.png",
-      "name": "Elon Musk"
+      "name": "Elon Musk",
+      "status": "Hi there, I'm Using Wave !"
     },
     "lastMessage": {
       "text": "I would be happy meeting you",
@@ -63,7 +68,8 @@
     "id": 6,
     "user": {
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/graham.jpg",
-      "name": "Adrian"
+      "name": "Adrian",
+      "status": "Hi there, I'm Using Wave !"
     },
     "lastMessage": {
       "text": "I think I have a solution for tha.",
@@ -75,7 +81,8 @@
     "id": 7,
     "user": {
       "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/avatars/zuck.jpeg",
-      "name": "Borja"
+      "name": "Borja",
+      "status": "Hi there, I'm Using Wave !"
     },
     "lastMessage": {
       "text": "How are you doing?",
